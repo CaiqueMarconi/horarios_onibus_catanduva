@@ -1,16 +1,5 @@
 # horarios_onibus_catanduva
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+App aprensenta informações com relação no horario dos onibus circulares de catanduva, desenvolvido com a intenção de ajudar os moradores da cidade.![imagemdoAPPSplashScreen](https://user-images.githubusercontent.com/84547091/121196321-c303bc80-c846-11eb-9a92-d8c1c3d8bfe5.png)
+![HomePageOnibus](https://user-images.githubusercontent.com/84547091/121196325-c4cd8000-c846-11eb-9e99-48b98c8da824.png)
+![imagemEditada23](https://user-images.githubusercontent.com/84547091/121196370-d020ab80-c846-11eb-85c1-6b061136e3b6.png)
