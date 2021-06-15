@@ -7,7 +7,7 @@ class AdState {
   AdState(this.initialization);
 
   String get bannerAdUnitId =>
-     // Platform.isAndroid ? 'ca-app-pub-9217945845676922/4142753708' : '';
+      //Platform.isAndroid ? 'ca-app-pub-9217945845676922/4142753708' : '';
       Platform.isAndroid ? 'ca-app-pub-3940256099942544/6300978111' : '';
 
   String get bannerAdUnitId2 =>
@@ -19,11 +19,11 @@ class AdState {
         Platform.isAndroid ? 'ca-app-pub-3940256099942544/6300978111' : '';
 
   String get bannerAdUnitId4 =>
-      //Platform.isAndroid ? 'ca-app-pub-9217945845676922/8842693845' : '';
+     //Platform.isAndroid ? 'ca-app-pub-9217945845676922/8842693845' : '';
         Platform.isAndroid ? 'ca-app-pub-3940256099942544/6300978111' : '';
 
   String get bannerAdUnitId5 =>
-      //Platform.isAndroid ? 'ca-app-pub-9217945845676922/3746279833' : '';
+     //Platform.isAndroid ? 'ca-app-pub-9217945845676922/3746279833' : '';
         Platform.isAndroid ? 'ca-app-pub-3940256099942544/6300978111' : '';
 
   String get bannerAdUnitId6 =>

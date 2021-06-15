@@ -4,7 +4,8 @@ import 'package:horarios_onibus_catanduva/models/Container_Obs.dart';
 import 'package:horarios_onibus_catanduva/models/Horarios_Amen_JdCoq.dart';
 import 'package:horarios_onibus_catanduva/models/TextAppbar.dart';
 import 'package:horarios_onibus_catanduva/models/TextAtualiz.dart';
-import 'package:horarios_onibus_catanduva/models/horasOnibus.dart';
+import 'package:horarios_onibus_catanduva/models/button_link_pontos_linhas.dart';
+import 'package:horarios_onibus_catanduva/models/horasPacha.dart';
 import 'package:horarios_onibus_catanduva/models/nameBairros.dart';
 
 class BairroJdCoqKm extends StatefulWidget {
@@ -37,6 +38,7 @@ class _BairroJdCoqKmState extends State<BairroJdCoqKm> {
           Divider(),
           TextAtualizacao(),
           ButtonLink(),
+          ButtonPontosLinhas()
         ],
       ),
     );

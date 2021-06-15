@@ -3,7 +3,8 @@ import 'package:horarios_onibus_catanduva/models/Button_Link.dart';
 import 'package:horarios_onibus_catanduva/models/Container_Obs.dart';
 import 'package:horarios_onibus_catanduva/models/TextAppbar.dart';
 import 'package:horarios_onibus_catanduva/models/TextAtualiz.dart';
-import 'package:horarios_onibus_catanduva/models/horasOnibus.dart';
+import 'package:horarios_onibus_catanduva/models/button_link_pontos_linhas.dart';
+import 'package:horarios_onibus_catanduva/models/horasPacha.dart';
 import 'package:horarios_onibus_catanduva/models/nameBairros.dart';
 
 class BairroTarraf extends StatefulWidget {
@@ -30,11 +31,12 @@ class _BairroTarrafState extends State<BairroTarraf> {
           ContainerObs(),
           Center(
             child:
-            Horarios_Onibus(),
+            Horarios_Pacha(),
 
           ),
           TextAtualizacao(),
           ButtonLink(),
+          ButtonPontosLinhas()
         ],
       ),
     );

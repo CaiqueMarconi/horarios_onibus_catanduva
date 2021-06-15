@@ -16,7 +16,6 @@ class _Horarios_JdTorreState extends State<Horarios_JdTorre> {
     setState(() {
       _texto = "--- 06:00 ---\n"
           "--- 07:00 ---\n"
-          "--- 16:00 ---\n"
           "--- 17:00 ---";
     });
   }

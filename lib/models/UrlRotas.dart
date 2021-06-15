@@ -11,3 +11,4 @@ launchURL() async {
     throw 'Could not launch $url';
   }
 }
+

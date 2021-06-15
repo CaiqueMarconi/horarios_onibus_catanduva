@@ -4,7 +4,8 @@ import 'package:horarios_onibus_catanduva/models/Container_Obs.dart';
 import 'package:horarios_onibus_catanduva/models/Horarios_Lorens_JdTorre.dart';
 import 'package:horarios_onibus_catanduva/models/TextAppbar.dart';
 import 'package:horarios_onibus_catanduva/models/TextAtualiz.dart';
-import 'package:horarios_onibus_catanduva/models/horasOnibus.dart';
+import 'package:horarios_onibus_catanduva/models/button_link_pontos_linhas.dart';
+import 'package:horarios_onibus_catanduva/models/horasPacha.dart';
 import 'package:horarios_onibus_catanduva/models/nameBairros.dart';
 
 class BairroJdTorre extends StatefulWidget {
@@ -36,6 +37,7 @@ class _BairroJdTorreState extends State<BairroJdTorre> {
           Divider(),
           TextAtualizacao(),
           ButtonLink(),
+          ButtonPontosLinhas()
         ],
       ),
     );
