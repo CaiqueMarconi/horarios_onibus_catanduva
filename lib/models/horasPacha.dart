@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Horarios_Onibus extends StatefulWidget {
-  const Horarios_Onibus({Key key}) : super(key: key);
+class Horarios_Pacha extends StatefulWidget {
+  const Horarios_Pacha({Key key}) : super(key: key);
 
   @override
-  _Horarios_OnibusState createState() => _Horarios_OnibusState();
+  _Horarios_PachaState createState() => _Horarios_PachaState();
 }
 
-class _Horarios_OnibusState extends State<Horarios_Onibus> {
+class _Horarios_PachaState extends State<Horarios_Pacha> {
 
   String _texto = "";
 
